@@ -10,7 +10,7 @@ This repository contains the materials and documentation for the workshop on gen
 
 ## Schedule
 
-### [Day 01 | 2026-05-18 | Monday](docs/day_01/README.md)
+### [Day 01 | 2026-05-18 | Monday](day_01/README.md)
 
 Linux introduction, terminal basics, navigation, file management, viewing files, editing text, compression, and searching.
 
@@ -26,7 +26,7 @@ Linux introduction, terminal basics, navigation, file management, viewing files,
 | 15:00 - 16:45 | Hands-On: Linux Advanced |
 | 16:45 - 17:00 | Recap & Daily Feedback   |
 
-### [Day 02 | 2026-05-19 | Tuesday](docs/day_02/README.md)
+### [Day 02 | 2026-05-19 | Tuesday](day_02/README.md)
 
 | Time          | Activity                                 |
 |---------------|------------------------------------------|
@@ -41,7 +41,7 @@ Linux introduction, terminal basics, navigation, file management, viewing files,
 | 14:30 - 16:45 | Hands-On: QC using fastp                 |
 | 16:45 - 17:00 | Recap & Daily Feedback                   |
 
-### [Day 03 | 2026-05-20 | Wednesday](docs/day_03/README.md)
+### [Day 03 | 2026-05-20 | Wednesday](day_03/README.md)
 
 | Time          | Activity                                   |
 |---------------|--------------------------------------------|
@@ -56,7 +56,7 @@ Linux introduction, terminal basics, navigation, file management, viewing files,
 | 15:00 - 16:45 | Hands-On: Assembly QC                      |
 | 16:45 - 17:00 | Recap & Daily Feedback                     |
 
-### [Day 04 | 2026-05-21 | Thursday](docs/day_04/README.md)
+### [Day 04 | 2026-05-21 | Thursday](day_04/README.md)
 
 | Time          | Activity                 |
 |---------------|--------------------------|
@@ -71,7 +71,7 @@ Linux introduction, terminal basics, navigation, file management, viewing files,
 | 15:00 - 16:45 | Hands-On: cgMLST         |
 | 16:45 - 17:00 | Recap & Daily Feedback   |
 
-### [Day 05 | 2026-05-22 | Friday](docs/day_05/README.md)
+### [Day 05 | 2026-05-22 | Friday](day_05/README.md)
 
 | Time          | Activity                                 |
 |---------------|------------------------------------------|
