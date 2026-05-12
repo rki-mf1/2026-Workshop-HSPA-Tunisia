@@ -26,13 +26,7 @@ Day 01 introduces the Linux command line and basic filesystem operations that wi
 You should work from a cloned copy of this repository in your **home** directory (`~`).
 To clone this repository you need to have `git` installed. 
 You can check if you already have `git` by opening a **terminal**, typing `git --version` and pressing enter. 
-If you do not see git help message you should install it.
-
-### Installing Git
-
-```bash
-sudo apt-get install git
-```
+If you do not see git help message you should install it with cmmand `sudo apt-get install git`.
 
 ### Cloning workshop GitHub repo
 
