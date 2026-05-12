@@ -23,7 +23,7 @@ All examples below use paths relative to that location.
 Open a terminal and move into the workshop repository:
 
 ```bash
-cd ~/2026-Workshop-HSPA-Morocco
+cd ~/2026-Workshop-HSPA-Tunisia
 ```
 
 Create a safe practice area for this session:
@@ -111,7 +111,7 @@ Linux is **case-sensitive**:
 Start in the repository root:
 
 ```bash
-cd ~/2026-Workshop-HSPA-Morocco
+cd ~/2026-Workshop-HSPA-Tunisia
 pwd
 ```
 
@@ -127,7 +127,7 @@ pwd
 cd ~
 pwd
 
-cd ~/2026-Workshop-HSPA-Morocco/data
+cd ~/2026-Workshop-HSPA-Tunisia/data
 pwd
 
 cd -
@@ -147,14 +147,14 @@ pwd
 
 An **absolute path** starts from the filesystem root `/`.
 
-Example: `/home/username/2026-Workshop-HSPA-Morocco/data`
+Example: `/home/username/2026-Workshop-HSPA-Tunisia/data`
 
 A **relative path** starts from where you are right now.
 
 Example workflow:
 
 ```bash
-cd ~/2026-Workshop-HSPA-Morocco
+cd ~/2026-Workshop-HSPA-Tunisia
 ls data
 
 cd data
@@ -167,7 +167,7 @@ ls ..
 Run these commands and explain why they work:
 
 ```bash
-cd ~/2026-Workshop-HSPA-Morocco
+cd ~/2026-Workshop-HSPA-Tunisia
 ls data
 
 cd data
@@ -195,7 +195,7 @@ cd ./data
 Return to your scratch directory:
 
 ```bash
-cd ~/2026-Workshop-HSPA-Morocco/scratch
+cd ~/2026-Workshop-HSPA-Tunisia/scratch
 pwd
 ```
 
@@ -408,7 +408,7 @@ One possible solution:
 
 ```bash
 # 1.
-cd ~/2026-Workshop-HSPA-Morocco/scratch
+cd ~/2026-Workshop-HSPA-Tunisia/scratch
 mkdir project_demo
 cd project_demo
 
