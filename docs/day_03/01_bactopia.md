@@ -103,7 +103,7 @@ bactopia prepare \
 Check the samplesheet.
 
 ```bash
-head bactopia_samplesheet
+head bactopia_samplesheet.txt
 ```
 
 ---
@@ -118,7 +118,7 @@ To avoid using too much space we will share loaction where we store Singularity 
 export NXF_SINGULARITY_CACHEDIR=$PWD/singularity_cache
 
 bactopia \
-  --samples bactopia_samplesheet \
+  --samples bactopia_samplesheet.txt \
   --coverage 100 \
   --max_cpus 4 \
   --outdir bactopia_kp \
@@ -130,7 +130,7 @@ Important options used here:
 
 | Option | Meaning |
 |---|---|
-| `--samples bactopia_samplesheet` | Use the samplesheet created with `bactopia prepare` |
+| `--samples bactopia_samplesheet.txt` | Use the samplesheet created with `bactopia prepare` |
 | `--coverage 100` | Downsample reads to a maximum target coverage of 100x |
 | `--max_cpus 4` | Use up to 4 CPU cores |
 | `--outdir bactopia_kp` | Write output files to this directory |
@@ -202,7 +202,7 @@ In this practical, you used `Bactopia` to process multiple Illumina paired-end b
 |-----------------------|-------------------------------------------------------------------|-------------------------------------------------------|
 | Prepare inputs        | `input/`                                                          | Store paired-end FASTQ files                          |
 | Create samplesheet    | `bactopia prepare`                                                | Detect samples and FASTQ pairs and output samplesheet |
-| Run Bactopia          | `bactopia --samples bactopia_samplesheet -profile singularity`    | Process all samples                                   |
+| Run Bactopia          | `bactopia --samples bactopia_samplesheet.txt -profile singularity`| Process all samples                                   |
 | Resume workflow       | `-resume`                                                         | Continue from completed steps                         |
 | Summarize results     | `bactopia summary`                                                | Create combined reports                               |
 | Assemblies            | `*.fna.gz`                                                        | Genome assemblies for downstream analysis             |
