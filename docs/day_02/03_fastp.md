@@ -57,8 +57,8 @@ cd ~/2026-Workshop-HSPA-Tunisia
 Create a working directory for this practical.
 
 ```bash
-mkdir -p analysis/fastp
-cd analysis/fastp
+mkdir -p analyses/fastp
+cd analyses/fastp
 ```
 
 Create directories for input reads and filtered output files.

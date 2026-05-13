@@ -66,8 +66,8 @@ cd ~/2026-Workshop-HSPA-Tunisia
 Create a working directory for this practical.
 
 ```bash
-mkdir -p analysis/bactopia
-cd analysis/bactopia
+mkdir -p analyses/bactopia
+cd analyses/bactopia
 ```
 
 ---
