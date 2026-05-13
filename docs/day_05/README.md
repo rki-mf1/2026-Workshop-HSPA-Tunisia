@@ -1,4 +1,4 @@
-# Day 05 — Working on Your Own ONT Data
+# Day 05 — Working on Your Own Data
 
 ## Overview
 

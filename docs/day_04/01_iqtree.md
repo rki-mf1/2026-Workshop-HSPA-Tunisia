@@ -18,7 +18,7 @@ By the end of this practical, you should be able to:
 
 Phylogenetic analysis allows us to compare reconstructed genomes and ask how closely related they are.
 
-In this practical, we will use consensus sequences produced during the previous analysis steps. These sequences first need to be aligned so that the same genome positions are compared across samples.
+In this practical, we will use assemblies produced during the previous analysis steps. These sequences first need to be aligned so that the same genome positions are compared across samples.
 
 The general workflow is:
 
