@@ -4,8 +4,8 @@
 
 Day 04 focuses on two complementary approaches for comparing bacterial genomes in genomic surveillance:
 
-1. **Phylogenetic tree inference with IQ-TREE**
-2. **Core genome multilocus sequence typing (cgMLST) with chewBBACA**
+1. **Core genome multilocus sequence typing (cgMLST) with chewBBACA**
+2. **Phylogenetic tree inference with IQ-TREE**
 
 You will learn how assembled genomes can be compared using both sequence-based and allele-based methods. IQ-TREE is used to infer maximum-likelihood phylogenetic trees from sequence alignments, while chewBBACA is used to perform gene-by-gene allele calling and generate cgMLST profiles from genome assemblies.
 
@@ -30,13 +30,12 @@ By the end of Day 04, you should be able to:
 
 ## 💻 Practicals
 
-1. [Phylogenetic Tree Inference with IQ-TREE](01_iqtree.md)
-2. [cgMLST with chewBBACA](02_chewbbaca.md)
+1. [cgMLST with chewBBACA](01_chewbbaca.md)
+2. [Phylogenetic Tree Inference with IQ-TREE](02_iqtree.md)
 
 ## 👩‍🏫 Slides
 
 - [Introduction to Molecular Phylogenetics](https://docs.google.com/presentation/d/1V85Ccei1zCsNBsOFiWi6TtxxlXaJ6czeIyqU4IouNg0)
-- [Nextclade](https://docs.google.com/presentation/d/1pHw3rN3BllqocSr25rz-ktSqABu64Fge7Y8wQBtNiAM)
 
 ## 📝 Evaluation
 
