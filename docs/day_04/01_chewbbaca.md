@@ -63,7 +63,7 @@ mkdir -p analyses/chewbbaca/assemblies
 Copy assembly FASTA files into one directory.
 
 ```bash
-cp bactopia_kp/*/main/assembler/*.fna.gz analyses/chewbbaca/assemblies
+cp analyses/bactopia_kp/*/main/assembler/*.fna.gz analyses/chewbbaca/assemblies
 ```
 
 Move to chewBBACA directory.
@@ -87,7 +87,7 @@ chewBBACA.py CreateSchema \
     -i assemblies/ \
     -o kp_schema \
     --ptf ~/2026-Workshop-HSPA-Tunisia/data/prodigal_training_files/Klebsiella_pneumoniae.trn \
-    --cpu 6
+    --cpu 2
 ```
 
 >[!NOTE]
@@ -103,7 +103,7 @@ chewBBACA.py AlleleCall \
     -i assemblies \
     -g kp_schema/schema_seed \
     -o allele_call_out \
-    --cpu 6
+    --cpu 2
 ```
 
 ---
@@ -127,7 +127,7 @@ chewBBACA.py UniprotFinder \
     -t kp_schema/cds_coordinates.tsv \
     --taxa "Klebsiella pneumoniae" \
     --no-sparql \
-    --cpu 6
+    --cpu 2
 ```
 
 ---
@@ -141,7 +141,7 @@ chewBBACA.py SchemaEvaluator \
     -a schema_annotations/schema_seed_annotations.tsv \
     --loci-reports \
     --add-sequences \
-    --cpu 6
+    --cpu 2
 ```
 
 ---
@@ -154,7 +154,7 @@ chewBBACA.py AlleleCallEvaluator \
     -g kp_schema/schema_seed \
     -o allele_call_evaluator_out \
     --a schema_annotations/schema_seed_annotations.tsv \
-    --cpu 6
+    --cpu 2
 ```
 
 ---
