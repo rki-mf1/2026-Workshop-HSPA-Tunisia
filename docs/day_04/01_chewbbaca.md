@@ -19,11 +19,11 @@ The general workflow is:
 ```text
 FASTQ files
   ↓
-Bactopia assembly
+Bactopia
   ↓
 Assembly FASTA files
   ↓
-chewBBACA
+chewBBACA allele calling → chewBBACA ComputeMSA → IQ-TREE on chewBBACA-generated MSA
   ↓
 cgMLST profile
   ↓
@@ -179,14 +179,60 @@ Try to answer:
 
 ---
 
+## 12. Create a multiple sequence alignment for IQ-TREE
+
+The allele calling result can also be converted into a multiple sequence alignment.
+This alignment will be used in the next practical with IQ-TREE.
+
+```bash
+chewBBACA.py ComputeMSA \
+  -i allele_call_out/results_alleles.tsv \
+  -g kp_schema/schema_seed \
+  -o msa_out \
+  --dna-msa \
+  --output-variable \
+  --cpu 2
+```
+
+When the input is a TSV file containing allelic profiles, the output folder structure is as follows:
+```bash
+msa_out
+├── dna_msa.fasta                   (if --dna-msa is used)
+├── dna_msa_variable.fasta          (if --output-variable and --dna-msa are used)
+├── protein_msa.fasta
+├── protein_msa_variable.fasta      (if --output-variable is used)
+└── summary_stats.tsv
+```
+
+Check the output files.
+
+```bash
+ls -lh msa_out
+```
+
+Important output files include:
+
+| File                                | Purpose                                        |
+|-------------------------------------|------------------------------------------------|
+| msa_out/dna_msa.fasta               | Complete DNA alignment from allele calls       |
+| msa_out/dna_msa_variable.fasta	    | DNA alignment with variable positions only     |
+| msa_out/protein_msa.fasta	          | Complete protein alignment                     |
+| msa_out/protein_msa_variable.fasta	| Protein alignment with variable positions only |
+| msa_out/summary_stats.tsv	          | Summary of loci included in the MSA            |
+
+For the next IQ-TREE practical, we will use `msa_out/dna_msa_variable.fasta`.
+
+---
+
 ## 📌 Summary
 
 In this practical, you used chewBBACA to compare bacterial genomes.
 
-| Step | Tool | Main output |
-|---|---|---|
-| Allele calling    | `chewBBACA AlleleCall` | `results_alleles.tsv` |
-| cgMLST extraction | `chewBBACA ExtractCgMLST` | `cgMLST*.tsv` |
+| Step              | Tool                       | Main output                      |
+|-------------------|----------------------------|----------------------------------|
+| Allele calling    | `chewBBACA AlleleCall`     | `results_alleles.tsv`            |
+| cgMLST extraction | `chewBBACA ExtractCgMLST`  | `cgMLST*.tsv`                    |
+| MSA generation    | `chewBBACA ComputeMSA`     | `msa_out/dna_msa_variable.fasta` |
 
 ---
 
