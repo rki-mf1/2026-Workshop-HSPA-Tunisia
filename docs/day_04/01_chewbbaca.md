@@ -63,7 +63,7 @@ mkdir -p analyses/chewbbaca/assemblies
 Copy assembly FASTA files into one directory.
 
 ```bash
-cp analyses/bactopia_kp/*/main/assembler/*.fna.gz analyses/chewbbaca/assemblies
+cp analyses/bactopia/bactopia_kp/*/main/assembler/*.fna.gz analyses/chewbbaca/assemblies
 ```
 
 Move to chewBBACA directory.
