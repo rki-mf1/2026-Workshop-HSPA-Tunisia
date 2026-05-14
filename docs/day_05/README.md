@@ -38,7 +38,7 @@ Result interpretation
 
 ## 🧪 Working session
 
-Participants should work on their own prepared Illumina short-read data..
+Participants should work on their own prepared Illumina short-read data.
 
 Please make sure you know:
 
