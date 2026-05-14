@@ -1,6 +1,9 @@
 # Downloading datasets
 
-To download the small datasets used in this workshop, we first need to install a few tools.
+> [!NOTE]
+> The FASTQ files were already downloaded on th eserver, so you can use them, they are stored here: `/shared/fastq_files`. 
+
+In case you do now have access to this directory on server, you can download it. To do so, we first need to install a few tools.
 
 We will use **NCBI SRA Toolkit**. The reads are downloaded with `prefetch`, converted to FASTQ with `fasterq-dump`, and compressed with `pigz`.
 
