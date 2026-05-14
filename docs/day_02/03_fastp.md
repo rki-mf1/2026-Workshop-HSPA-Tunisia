@@ -70,10 +70,10 @@ mkdir -p filtered_reads/by_length
 mkdir -p filtered_reads/by_quality
 ```
 
-Copy the paired-end FASTQ files into the `input` directory.
+Create a symlink the paired-end FASTQ files into the `input` directory.
 
 ```bash
-cp ~/2026-Workshop-HSPA-Tunisia/data/raw_data/kp/ERR16718582_*.fastq.gz input/
+ln -s /shared/fastq_files input/
 ```
 
 Check that both files were copied successfully.
@@ -182,7 +182,9 @@ ls -lh filtered_reads/default_params/
 
 ## 5. Open the HTML report
 
-The HTML report can be opened with a web browser.
+Now you can download the `.html` file and open it on your presonal computer.
+
+If server has `firefox` setup the HTML report can be opened with a web browser.
 
 ```bash
 firefox filtered_reads/default_params/ERR16718582_fastp.html
