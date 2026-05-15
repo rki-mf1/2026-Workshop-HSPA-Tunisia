@@ -12,7 +12,6 @@ This repository contains the materials and documentation for the workshop on gen
 
 ### [Day 01 | 2026-05-18 | Monday](day_01/README.md)
 
-Linux introduction, terminal basics, navigation, file management, viewing files, editing text, compression, and searching.
 
 | Time          | Activity                 |
 |---------------|--------------------------|
