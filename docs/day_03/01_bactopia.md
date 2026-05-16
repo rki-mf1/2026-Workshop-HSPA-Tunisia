@@ -74,17 +74,7 @@ cd analyses/bactopia
 
 ## 3. Check the input FASTQ files
 
-The FASTQ files are already available on your server in `/shared/fastq_files` kindly organized by Karim:
-
-```bash
-/shared
-├── fastq_files
-├── tools
-├── results
-├── conda-pkgs
-└── apptainer_images
-```
-
+The FASTQ files are already available on your server in `/shared/fastq_files`.
 
 Check the files.
 
@@ -128,12 +118,12 @@ To avoid using too much space we will share loaction where we store Singularity 
 export NXF_SINGULARITY_CACHEDIR=/shared/apptainer_images
 
 bactopia \
+  -profile singularity \
   --samples bactopia_samplesheet.txt \
   --coverage 100 \
-  --max_cpus 2 \
+  --max_cpus 4 \
   --outdir bactopia_kp \
-  -profile singularity \
-  -resume
+  --ask_merlin
 ```
 
 Important options used here:
@@ -142,7 +132,8 @@ Important options used here:
 |---|---|
 | `--samples bactopia_samplesheet.txt` | Use the samplesheet created with `bactopia prepare` |
 | `--coverage 100` | Downsample reads to a maximum target coverage of 100x |
-| `--max_cpus 2` | Use up to 4 CPU cores |
+| `--max_cpus 4` | Use up to 4 CPU cores |
+| `--ask_merlin` | The merlin step automatically selects and runs species-specific typing tools based on Mash distance results from the sketcher step. |
 | `--outdir bactopia_kp` | Write output files to this directory |
 | `-profile singularity` | Run workflow steps using Singularity containers |
 | `-resume` | Continue from completed steps if the command is restarted |
