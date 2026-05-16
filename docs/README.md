@@ -60,12 +60,12 @@ This repository contains the materials and documentation for the workshop on gen
 | Time          | Activity                 |
 |---------------|--------------------------|
 | 09:00 - 09:30 | Recap                    |
-| 09:30 - 10:45 | Talk: Phylogenetics      |
+| 09:30 - 10:45 | Talk: MLST and cgMLST    |
 | 10:45 - 11:00 | ☕ Break                 |
-| 11:00 - 12:00 | Hands-On: IQ-TREE        |
+| 11:00 - 12:00 | Hands-On: cgMLST         |
 | 12:00 - 13:00 | 🍽️ Lunch Break           |
 | 13:00 - 13:30 | Participant Presentation |
-| 13:30 - 14:45 | Talk: MLST and cgMLST    |
+| 13:30 - 14:45 | Hands-On: cgMLST         |
 | 14:45 - 15:00 | ☕ Break                 |
 | 15:00 - 16:45 | Hands-On: cgMLST         |
 | 16:45 - 17:00 | Recap & Daily Feedback   |
