@@ -35,7 +35,6 @@ Main topics include:
 - assembly quality control
 - MLST and cgMLST
 - Minimum Spanning Trees
-- phylogenetic analysis with IQ-TREE
 - antimicrobial resistance prediction
 - analysis of participants’ own data
 
@@ -52,7 +51,6 @@ Upon completion of the workshop, participants will be able to:
 - assess assembly quality
 - conduct MLST and cgMLST analyses for isolate characterization
 - generate and interpret Minimum Spanning Trees for genomic epidemiology
-- run and interpret phylogenetic analyses using IQ-TREE
 - identify antimicrobial resistance determinants
 - apply the learned methods to their own sequencing datasets
 
@@ -65,7 +63,7 @@ Upon completion of the workshop, participants will be able to:
 | Mon, 18 May 2026 | Day 1 | Introduction, workshop overview, Linux basics |
 | Tue, 19 May 2026 | Day 2 | Data and software management with Conda and containers, quality control |
 | Wed, 20 May 2026 | Day 3 | Genome assembly and assembly quality control |
-| Thu, 21 May 2026 | Day 4 | MLST, cgMLST, phylogenetics, AMR |
+| Thu, 21 May 2026 | Day 4 | MLST, cgMLST, AMR |
 | Fri, 22 May 2026 | Day 5 | Bring your own data, Q&A |
 
 ---
