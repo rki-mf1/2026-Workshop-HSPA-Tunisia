@@ -1,3 +1,5 @@
+[⬅ Back to main page](../README.md)
+
 # Downloading datasets
 
 > [!NOTE]
@@ -61,3 +63,9 @@ done
 # go back to workshop dir
 cd ~/2026-Workshop-HSPA-Tunisia
 ```
+
+---
+
+[Next tutorial](./03_fastp.md)
+
+[⬅ Back to main page](../README.md)

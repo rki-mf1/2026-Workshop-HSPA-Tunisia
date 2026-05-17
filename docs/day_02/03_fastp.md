@@ -1,3 +1,5 @@
+[⬅ Back to main page](../README.md)
+
 # Quality control of Illumina paired-end reads with `fastp`
 
 ## 🎯 Learning goals
