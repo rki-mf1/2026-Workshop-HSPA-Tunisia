@@ -24,7 +24,8 @@ By the end of Day 04, you should be able to:
 
 ## 👩‍🏫 Slides
 
-- [Introduction to Molecular Phylogenetics](https://docs.google.com/presentation/d/1V85Ccei1zCsNBsOFiWi6TtxxlXaJ6czeIyqU4IouNg0)
+- [cgMLST](https://docs.google.com/presentation/d/1dN8F7EW-BNL-q0ohmT8DaCWsOERCsLFqE8JODTP2eKM)
+- [Optional: Introduction to Molecular Phylogenetics](https://docs.google.com/presentation/d/1V85Ccei1zCsNBsOFiWi6TtxxlXaJ6czeIyqU4IouNg0)
 
 ## 📝 Evaluation
 
