@@ -63,7 +63,7 @@ Upon completion of the workshop, participants will be able to:
 | Mon, 18 May 2026 | Day 1 | Introduction, workshop overview, Linux basics |
 | Tue, 19 May 2026 | Day 2 | Data and software management with Conda and containers, quality control |
 | Wed, 20 May 2026 | Day 3 | Genome assembly and assembly quality control |
-| Thu, 21 May 2026 | Day 4 | MLST, cgMLST, AMR |
+| Thu, 21 May 2026 | Day 4 | MLST, cgMLST |
 | Fri, 22 May 2026 | Day 5 | Bring your own data, Q&A |
 
 ---
