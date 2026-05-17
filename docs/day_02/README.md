@@ -21,7 +21,7 @@ By the end of Day 02, you should be able to:
 ## 💻 Practicals
 
 1. [Software Management with Conda](./01_conda.md)
-2. [Downloading Datasets](./02_downloading_datasets.md)
+2. [Downloading Datasets](./02_downloading_dataset.md)
 3. [Quality Control with `fastp`](./03_fastp.md)
 
 ## 👩‍🏫 Slides
